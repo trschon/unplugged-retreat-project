@@ -98,20 +98,22 @@ header, footer{
 
 /* Header styles */
 
-
+header{
+  padding: 15px 0px;
+}
 header .content-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
-}
-
-header figure{
+  width: 100%;
+  margin: 0;
 
 }
 
 .header-divider{
+  width: 100%;
+  margin: 10px 0 20px 0;
 
 }
 
@@ -120,6 +122,7 @@ header nav{
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 
 }
 
@@ -127,11 +130,24 @@ header nav ul{
 
   display: flex;
   justify-content: space-around;
-
-  
+  width: 100%;
 }
 
-footer .social{
+footer {
+  flex-direction: column;
+}
+
+footer p{
+  margin: 0; 
+}
+
+footer .content-wrapper{
+  width: 55%;
+  margin: 50px 0px;
+}
+
+footer .contact {
+  margin-bottom: 50px;
 }
 
 footer .social-icons{
@@ -144,37 +160,45 @@ footer .social-icons p {
   justify-content: center;
   align-items: center;
 }
+
+footer .copyright {
+  margin: 20px 0;
+}
 /*---------------------Mobile styles - Homepage ---------------------------- */
+
+/* Hero Area */
 
 .hero-area{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-
-
 }
-.hero-area h1{
 
-}
+
+/*Aside*/
 
 aside{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
-  
 }
 
-
-
+/* Features */
 
 .features{
-  
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
 
+.features h2{
+  margin-bottom: 60px;
+}
+
+.features article{
+  width: 63%;
+  padding: 30px 0px;
 }
 
 .features .features-items{
@@ -182,28 +206,30 @@ aside{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  
 }
 
+.features p{
+  margin: 0;
+}
+
+/* Reviews */
 
 .reviews{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-
-
 }
 
-footer{
-
+.reviews h2{
+  margin-bottom: 40px;
 }
 
-footer .copyright{
-
+.reviews h3{
+  width: 55%;
+  padding: 20px 0px;
 }
 
-address .contact{
-  
-}
 /*---------------------Mobile styles - About Page ---------------------------- */
 
 .mission{
